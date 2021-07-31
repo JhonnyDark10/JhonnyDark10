@@ -1,0 +1,543 @@
+
+
+/*------------------------------------------------------------------------------------*/
+/*color de fondo*/
+
+body{
+	background-color:white;
+    margin: 0%;	
+	width:100%;
+    height:100%;
+	
+	}
+	
+#todo{
+     width:1348px;
+	margin: auto;
+    
+}
+
+/*lista superior primer header*/
+#cab_superior{
+	font-size: 1em;
+	background-color: #232D36;
+	padding-top: 9.1px;	
+	text-align:center;
+}
+
+
+/*primera division*/
+/*menu superior header*/
+#menu_superior{
+ display: inline-block;
+ position: relative;
+ 
+}
+ 
+#menu_superior ul{
+list-style-type:none;
+}
+
+#menu_superior li{
+display: inline-block;
+margin-right: 15px;
+margin-top:-5px;
+}
+
+
+#menu_superior a{
+font-size:1em;
+color:white;
+padding-bottom:3px;
+text-decoration:none;
+}
+ /*------------------------------------------------------------------------------------*/
+
+/*lista superior segundo header logotipo*/
+#cabecera_titulo{
+	
+	font-size  : 0.9em;
+	color      : white;
+	background-color: #070970;
+	height: 242px;
+	padding-top: 10px;
+}
+	
+h3 {
+		position:relative;
+		text-align:center;
+		top: 10px;
+	}
+
+	
+/*------------------------------------------------------------------------------------*/
+	
+	
+	
+#menu{
+
+    position: relative;
+    font-size  : 1.1em;
+	top: -122px;
+	background-color:  #070970;
+	/******************aqui boreeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+	z-index:3;
+	text-align:center;
+	width:100%;
+}
+
+#cabecera_menu{
+	 display: inline-block;
+	 width: 70%;
+     
+}
+/*Navegancion*/
+#cabecera_menu ul{
+	
+  margin: 0;
+  padding: 15px 15px 15px 15px;	
+  border: 1px solid black;
+}
+
+nav ul{
+list-style-type:none;
+
+}
+
+nav li{
+display: inline-block;
+margin-right: 15px;
+margin-top:-5px;
+}
+
+nav a{
+color:white;
+padding-bottom:3px;
+text-decoration:none;
+}
+
+nav a:hover{
+
+}
+
+#cabecera_menu a:hover{
+	
+	background-color:  red;
+	/* border-right: 1px solid #1b212a; */
+    color: white;
+    padding: 15px 10px;
+   
+   
+}
+
+/* submenu */
+
+.submenu{
+	position: absolute;
+	background: white;
+	width: 14%;
+	opacity:0;
+	transition:opacity 1s;
+	top:47.2px;
+	visibility:hidden;
+	text-align:left;
+}
+
+.submenu li a{
+	color:black;
+	display:block;
+	padding: 15px;
+	font-family: 'open-quote';
+	text-decoration:none;
+}
+
+.submenu ul{
+	display:block;
+	border: 1px solid red;
+}
+
+.primer li:hover .submenu{
+	visibility:visible;
+	opacity:1;
+    padding: 0.5px 0px;
+    top: 50px;
+	
+}
+
+#cabecera_menu .submenu a:hover{
+	
+	background-color:  transparent;
+    color:red;
+   
+}
+
+
+/*-------------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'flexslider-icon';
+  src: url('../fonts/flexslider-icon.eot');
+  src: url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('../fonts/flexslider-icon.woff') 
+  format('woff'), url('../fonts/flexslider-icon.ttf') format('truetype'), url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.flexslider{
+	top: -138px;
+	left: 15%;
+	width: 70%;
+	position: relative;
+}
+
+.slides{
+	overflow: hidden;
+	z-index:2;
+	
+	border-radius: 23px 23px 23px 23px;
+}
+
+.slides img{
+	width: 100%;
+	
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flex-control-nav{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 5%;
+	z-index: 999;
+}
+
+.flex-control-nav li{
+	display: inline-block;
+	margin: 0 6px;
+}
+
+.flex-control-nav li a{
+	display: block;
+	background: #777777;
+	width: 12px;
+	height: 12px;
+	border-radius: 12px;
+	text-indent: -9999px;
+}
+
+.flex-control-nav li a:hover{
+	background: blue;
+}
+
+.flex-control-nav li a.flex-active{
+	background: blue;	
+}
+
+.flex-direction-nav a{
+	display: block;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	opacity:0;
+	-webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.flex-direction-nav .flex-prev{
+	left: 0;
+}
+
+.flex-direction-nav .flex-next{
+	right: 0;
+}
+
+.flex-direction-nav a:before {
+  font-family: "flexslider-icon";
+  font-size: 40px;
+  display: inline-block;
+  content: '\f001';
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+.flex-direction-nav a.flex-next:before {
+  content: '\f002';
+}
+
+.flex-caption p{
+	font-family: Lato;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	width: 100%;
+	font-size: 45px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.flexslider:hover .flex-direction-nav .flex-prev{
+	opacity: 0.7;
+	left: 50px;
+}
+
+.flexslider:hover .flex-direction-nav .flex-prev:hover{
+	opacity: 1;
+}
+
+.flexslider:hover .flex-direction-nav .flex-next{
+	opacity: 0.7;
+	right: 50px;
+}
+
+.flexslider:hover .flex-direction-nav .flex-next:hover{
+	opacity: 1;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------*/
+
+#cuadros{
+	position: relative;
+   	top: -120px;
+/*****************************************Aquiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii*/
+	
+	
+}
+#cuadros ul{
+   list-style-type: none;
+   text-align: center;
+}
+
+#cuadros li{
+   display: inline;
+   text-align: center;
+   margin: 10px 10px 10px 10px;
+}
+
+
+
+#cuadros li a {
+   padding: 10px 10px 10px 10px;
+   background-color: #070970;
+   color: white;
+   border: 2px solid black;
+   border-radius: 5px;
+   text-decoration: none;
+   font-size  : 1.3em;
+}
+
+
+#cuadros li a:hover{
+   background-color: red;
+   color: #ffffff;
+}
+
+
+/*CUERPO DE LA PAGINA---------------------------------------------------------------------------------------------------*/
+article,aside{
+	display: inline-block; /*Para mandarle en un bloque - en una sola linea*/
+	vertical-align: top; /*La parte del Top-Arriba se alinien todos hacia arriba*/
+	text-align: justify; /*Para justificar el texto*/
+	top: -65px;
+	width:100%;
+/*aqui borre*/
+	padding-bottom:0;
+}
+
+article{
+	position: relative;
+	width: 40%;
+	left:  25%;
+}
+article h1{
+	font-size: 1.5em;
+	color: red;
+}
+
+article a{
+	color:blue;
+	text-decoration:none;
+	
+}
+article h4{
+	color: red;
+}
+
+
+
+/*-----------------------------------------------------*/
+aside{
+	position:relative;
+	width: 20%;
+	background-color: #FFFFFF;
+	box-shadow: 0px 1px 1px #1c1a19;
+	padding: 10px;
+	color: black;
+	font-size: 0.9em;
+	left:  23%;
+	height:100%;
+}
+
+aside imh{
+   width:100%;
+   height:100%;
+
+ }
+
+#aside_menu{
+	position: relative;
+  	left: 20px;
+ }
+#aside_menu ul{
+   list-style-type: none;
+   vertical-align: top;
+  
+}
+
+#aside_menu li{
+   display: inline-block;
+   text-align: center;
+   margin: 10px 10px 20px 20px;
+ 
+}
+
+#aside_menu li a {
+   padding: 5px 50px 10px 10px;
+   background-color: transparent;
+   color: red;
+   text-decoration: none;
+   font-size  : 1.3em;
+    border-radius: 5px;
+	border: 2px solid black;
+	
+}
+
+
+#aside_menu li a:hover{
+   background-color: red;
+   color: #ffffff;
+}
+
+
+
+#himno_c{
+	 text-align: center;
+}
+
+aside img{
+	position:relative;
+	left: 66px; /*Para el espacio k hay entre las imagenes de redes sociales*/ 
+}
+aside iframe{
+	position:relative;
+	left: 30px; /*Para el espacio k hay entre las imagenes de redes sociales*/ 
+}
+
+
+
+/*---------------------------------------------------------------------------*/
+
+/*FOOTER------------------------------------------------------------------------------------------------------------------*/
+footer{
+	padding-top: 24px;
+	background-color: #979190;
+	position:relative;
+	width: 100%;
+	height: 168px;	
+}
+
+
+#Servicio, #Unidades_Asociada, #Redes_Sociale , #imaginario1,#imaginario2{
+	display:inline-block;
+	vertical-align: top; /*alinear a un mismo nivel*/  
+}
+
+#imaginario1{
+	 width: 20%;
+}
+
+#imaginario2{
+	 width: 20%;
+}
+#Servicio{
+	color: #FFBF00;
+    width: 20%;
+text-align: center;
+} 
+#Unidades_Asociada{
+	color: #FFBF00;
+     width: 20%;
+text-align: center;
+}
+#Redes_Sociale{
+	color: #FFBF00;
+	width: 20%;
+	text-align: center;
+}
+
+
+footer ul{
+    list-style-type:none;
+    vertical-align: top;
+	margin-top: 0;
+	width: 5%;
+	padding-left: 100px;
+}
+
+footer li{
+display: inline-block;
+margin-right: 5px;
+
+}
+
+footer a{
+font-size:1em;
+color: #FFFFFF;
+padding-bottom:3px;
+text-decoration:none;
+
+}
+
+footer a:hover{
+   color: red;
+}
+
+
+
+/****************************************************************************************/
+#final{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	height: 67px;
+	background-color:#232D36;
+  	color :white;
+}
+
+h5 {
+		position:absolute;
+		top: -9px;
+		left: 265px;
+	}
+
+
+
+
+
+ 
