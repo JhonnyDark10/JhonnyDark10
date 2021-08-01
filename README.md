@@ -1,5 +1,12 @@
 ### Hi there 👋
 
+Pagina Web Informativa de Una Institución Educativa.
+
+- HTML
+- CSS
+- JAVASCRIPT
+
+
 
 <!--
 **JhonnyDark10/JhonnyDark10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
