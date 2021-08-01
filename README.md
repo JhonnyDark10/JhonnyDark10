@@ -1,9 +1,5 @@
 ### Hi there 👋
-Repositorio de mis Proyectos
-Pagina Web Informativa
-- HTML
-- CSS
-- JAVASCRIPT
+
 
 <!--
 **JhonnyDark10/JhonnyDark10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
