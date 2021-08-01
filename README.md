@@ -1,5 +1,6 @@
 ### Hi there 👋
-Este es mi primer proyecto en mis clases de programación año 2016.
+Este es mi primer proyecto de mis clases de Ing. en Sistemas.
+Pagina Web Informativa
 - HTML
 - CSS
 - JAVASCRIPT
