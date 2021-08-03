@@ -3,7 +3,7 @@
 
 Mi primer paso codigo no simplificado.
 
-Pagina Web Informativa de Una Institución Educativa.
+Pagina Web Informativa de Una Institución Educativa: consta de un banner de imagenes, un menu, sección noticias y link de páginas.
 
 Para su desarrollo se uso:
 
