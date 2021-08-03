@@ -4,12 +4,13 @@
 Mi primer paso codigo no simplificado.
 Pagina Web Informativa de Una Institución Educativa.
 Para su desarrollo se uso:
+
 - HTML
 - CSS
 - JAVASCRIPT
 
-- ⚡ Fun fact: Fue un proyecto realizado en el año 2017.
-
+- 🌱 I’m currently learning new technologies.
+- 💬 Ask me about how I started programming.
 
 <!--
 **JhonnyDark10/JhonnyDark10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
