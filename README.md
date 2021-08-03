@@ -11,8 +11,8 @@ Para su desarrollo se uso:
 - CSS
 - JAVASCRIPT
 
-- 🌱 I’m currently learning new technologies.
-- 💬 Ask me about how I started programming.
+🌱 I’m currently learning new technologies.
+💬 Ask me about how I started programming.
 
 <!--
 **JhonnyDark10/JhonnyDark10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
