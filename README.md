@@ -1,7 +1,7 @@
 ### Hi there 👋
 ### Repositorio Flores Jhonny
 
-Mi primer pasos codigo no simplificado.
+Mi primer paso codigo no simplificado.
 Pagina Web Informativa de Una Institución Educativa.
 Para su desarrollo se uso:
 - HTML
