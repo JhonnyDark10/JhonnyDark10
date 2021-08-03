@@ -1,11 +1,14 @@
 ### Hi there 👋
+### Repositorio Flores Jhonny
 
+Mi primer pasos codigo no simplificado.
 Pagina Web Informativa de Una Institución Educativa.
-
+Para su desarrollo se uso:
 - HTML
 - CSS
 - JAVASCRIPT
 
+- ⚡ Fun fact: Fue un proyecto realizado en el año 2017.
 
 
 <!--
