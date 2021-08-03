@@ -12,6 +12,7 @@ Para su desarrollo se uso:
 - JAVASCRIPT
 
 🌱 I’m currently learning new technologies.
+
 💬 Ask me about how I started programming.
 
 <!--
